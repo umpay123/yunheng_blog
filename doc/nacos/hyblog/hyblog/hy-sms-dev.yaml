@@ -1,0 +1,58 @@
+server:
+  port: 8604
+
+#阿里大于
+accessKeyId: LTAI5tQSmuZ9APZfWQNhvv1Y #修改成自己的
+accessKeySecret: 0Us0f57BnD92LEFMbdIzmOu1b5d3QE #修改成自己的
+
+spring:
+  #mail
+  mail:
+    username: tanlin0421@163.com
+    password: JGMZRXRZTWECTPAW #授权码开启SMTP服务里设置
+    host: smtp.163.com
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+          socketFactory:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+          auth: true
+          starttls:
+            enable: false
+
+  application:
+    name: hy-sms
+  elasticsearch:
+    rest:
+      uris: http://www.tanliny.xyz:9200
+  datasource:
+    username: tanlin
+    password: tanlin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.tanliny.xyz:3306/hy_blog?serverTimezone=UTC&characterEncoding=UTF-8
+  redis:
+    host: www.tanliny.xyz
+    port: 6379
+    password: '123456'
+  rabbitmq:
+    host: www.tanliny.xyz
+    port: 5672
+
+  cloud:
+    inetutils:
+      ignored-interfaces: eth.*
+    nacos:
+      discovery:
+        server-addr: www.tanliny.xyz:8848
+        ip: 124.70.200.174
+    # 配置Sentinel流控
+    sentinel:
+      transport:
+        #配置Sentinel dashboard地址
+        dashboard: www.tanliny.xyz:8858
+        #默认8719端口,如果被占用会向上扫描。
+        port: 8858
