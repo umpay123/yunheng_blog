@@ -82,6 +82,7 @@ public class IndexRestApi {
         map.put("tagCount",collect.get(1));
         map.put("sortCount",collect.get(2));
         return ResultUtil.result(SysConf.SUCCESS,map);
+
     }
 
     @RequestLimit(amount = 200, time = 60000)
