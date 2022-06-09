@@ -4,7 +4,7 @@ package com.moxi.mogublog.spider.service.impl;
 import com.moxi.mogublog.spider.entity.BlogSpider;
 import com.moxi.mogublog.spider.mapper.BlogSpiderMapper;
 import com.moxi.mogublog.spider.service.BlogSpiderService;
-import com.moxi.mougblog.base.serviceImpl.SuperServiceImpl;
+import com.moxi.hyblog.base.serviceImpl.SuperServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

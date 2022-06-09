@@ -23,7 +23,7 @@
     <dependencies>
 
         <dependency>
-            <artifactId>mogu_base</artifactId>
+            <artifactId>hy_base</artifactId>
             <groupId>com.moxi</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -120,6 +120,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.moxi</groupId>
+            <artifactId>hy_base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>

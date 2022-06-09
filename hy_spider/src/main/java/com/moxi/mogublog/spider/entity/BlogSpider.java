@@ -3,7 +3,7 @@ package com.moxi.mogublog.spider.entity;
 import com.baomidou.mybatisplus.annotation.FieldStrategy;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.moxi.mougblog.base.entity.SuperEntity;
+import com.moxi.hyblog.base.entity.SuperEntity;
 import lombok.Data;
 
 /**

@@ -1,6 +1,6 @@
 package com.moxi.mogublog.spider.global;
 
-import com.moxi.mougblog.base.global.BaseSQLConf;
+import com.moxi.hyblog.base.global.BaseSQLConf;
 
 /**
  * SQL字段常量

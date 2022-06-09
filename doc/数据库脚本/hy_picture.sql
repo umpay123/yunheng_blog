@@ -31,8 +31,8 @@ CREATE TABLE `t_file` (
   `admin_uid` varchar(36) DEFAULT NULL COMMENT '管理员uid',
   `user_uid` varchar(36) DEFAULT NULL COMMENT '用户uid',
   `status` tinyint unsigned NOT NULL DEFAULT '1' COMMENT '状态',
-  `create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
-  `update_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '更新时间',
+  `create_time` timestamp NOT NULL DEFAULT '2022-06-07 00:00:00' COMMENT '创建时间',
+  `update_time` timestamp NOT NULL DEFAULT '2022-06-07 00:00:00' COMMENT '更新时间',
   `qi_niu_url` varchar(255) DEFAULT NULL COMMENT '七牛云地址',
   PRIMARY KEY (`uid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文件表';
@@ -803,8 +803,8 @@ CREATE TABLE `t_file_sort` (
   `sort_name` varchar(255) DEFAULT NULL COMMENT '分类名',
   `url` varchar(255) DEFAULT NULL COMMENT '分类路径',
   `status` tinyint unsigned NOT NULL DEFAULT '1' COMMENT '状态',
-  `create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
-  `update_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '更新时间',
+  `create_time` timestamp NOT NULL DEFAULT '2022-06-07 00:00:00' COMMENT '创建时间',
+  `update_time` timestamp NOT NULL DEFAULT '2022-06-07 00:00:00' COMMENT '更新时间',
   PRIMARY KEY (`uid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文件分类表';
 
@@ -827,8 +827,8 @@ CREATE TABLE `t_network_disk` (
   `file_size` bigint NOT NULL COMMENT '文件大小',
   `is_dir` int NOT NULL COMMENT '是否目录',
   `status` tinyint unsigned NOT NULL DEFAULT '1' COMMENT '状态',
-  `create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
-  `update_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '更新时间',
+  `create_time` timestamp NOT NULL DEFAULT '2022-06-07 00:00:00' COMMENT '创建时间',
+  `update_time` timestamp NOT NULL DEFAULT '2022-06-07 00:00:00' COMMENT '更新时间',
   `local_url` varchar(255) DEFAULT NULL COMMENT '本地文件URL',
   `qi_niu_url` varchar(255) DEFAULT NULL COMMENT '七牛云URL',
   `file_old_name` varchar(255) DEFAULT NULL COMMENT '上传前文件名',
@@ -846,8 +846,8 @@ CREATE TABLE `t_storage` (
   `admin_uid` varchar(32) NOT NULL COMMENT '管理员uid',
   `storage_size` bigint NOT NULL,
   `status` tinyint unsigned NOT NULL DEFAULT '1' COMMENT '状态',
-  `create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '创建时间',
-  `update_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '更新时间',
+  `create_time` timestamp NOT NULL DEFAULT '2022-06-07 00:00:00' COMMENT '创建时间',
+  `update_time` timestamp NOT NULL DEFAULT '2022-06-07 00:00:00' COMMENT '更新时间',
   PRIMARY KEY (`uid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='存储信息表';
 

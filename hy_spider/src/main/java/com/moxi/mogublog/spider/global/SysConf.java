@@ -1,6 +1,6 @@
 package com.moxi.mogublog.spider.global;
 
-import com.moxi.mougblog.base.global.BaseSysConf;
+import com.moxi.hyblog.base.global.BaseSysConf;
 
 /**
  * 系统常量

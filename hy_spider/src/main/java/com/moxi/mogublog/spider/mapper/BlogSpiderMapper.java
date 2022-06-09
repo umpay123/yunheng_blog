@@ -2,7 +2,7 @@ package com.moxi.mogublog.spider.mapper;
 
 
 import com.moxi.mogublog.spider.entity.BlogSpider;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.moxi.hyblog.base.mapper.SuperMapper;
 
 /**
  * <p>

@@ -1,7 +1,7 @@
 package com.moxi.mogublog.spider.service;
 
 import com.moxi.mogublog.spider.entity.BlogSpider;
-import com.moxi.mougblog.base.service.SuperService;
+import com.moxi.hyblog.base.service.SuperService;
 
 /**
  * <p>
